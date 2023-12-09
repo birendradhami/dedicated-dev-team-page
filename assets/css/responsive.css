@@ -1,0 +1,403 @@
+@media screen and (max-width: 1600px) {
+  /* Ddt Banner */
+
+  .hrdvlpr_bnr {
+    height: 800px;
+  }
+  .mh h1 {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+  /* Ddt Hire */
+
+  .hrdvlpr_tm_lst {
+    display: none;
+  }
+
+  .hrdvlpr_tm #hover-carousel {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .hrdvlpr_tm #hover-carousel .slick-slide {
+    display: block;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .hrdvlpr_tm #hover-carousel {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .hrdvlpr_tm #hover-carousel figure {
+    position: relative;
+    height: 500px;
+  }
+
+  .hrdvlpr_tm #hover-carousel figure img {
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .hrdvlpr_tm #hover-carousel figure figcaption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hrdvlpr_tm #hover-carousel figure figcaption h3 {
+    color: #fff;
+    font-size: 26px;
+  }
+
+  /*  */
+  .hover-carousel .slick-dots {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  .hover-carousel .slick-dots li {
+    margin: 0 1px;
+  }
+
+  .hover-carousel .slick-dots li button:before {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: rgb(154, 196, 156);
+    font-size: 16px;
+  }
+
+  .hover-carousel .slick-dots li.slick-active button:before {
+    color: #048016;
+  }
+
+  .hover-carousel .slick-dots li button {
+    width: 0;
+    font-size: 0;
+    height: 0;
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Ddt Banner */
+
+  .hrdvlpr_bnr {
+    height: 500px;
+  }
+
+  .mh h1 {
+    font-size: 40px;
+  }
+
+  .mh p,
+  .sb p {
+    font-size: 16px;
+    line-height: normal;
+    margin-bottom: 0;
+  }
+
+  .hrdvlpr_bnr .mh p {
+    margin: 15px 0 20px;
+  }
+
+  .sb h2 {
+    font-size: 35px;
+  }
+
+  /* Ddt Requirement */
+
+  .rqrmnt_lt {
+    width: 100%;
+    position: initial;
+  }
+
+  .rqrmnt_rt {
+    width: 100%;
+  }
+
+  .rqrmnt_lst {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 20px;
+  }
+
+  .rqrmnt_lst li {
+    width: 48%;
+  }
+
+  .rqrmnt_lst li h3 {
+    font-size: 22px;
+  }
+
+  .alsc {
+    padding: 40px 0 10px;
+  }
+
+  /* Ddt Engage */
+
+  .engage_cntnt {
+    position: relative;
+    top: 0;
+    flex-wrap: wrap;
+  }
+
+  .engage_cntnt figure {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .engage_dt {
+    width: 100%;
+    /* text-align: center; */
+  }
+
+  .engage_dt figure {
+    margin-left: 0;
+  }
+
+  .engage_dt li p {
+    font-size: 18px;
+  }
+
+  .engage_lst .engage_cntnt:nth-child(even):after {
+    top: -6%;
+  }
+
+  .engage_lst .engage_cntnt:nth-child(2n) {
+    padding-top: 20px;
+    flex-direction: row-reverse;
+    padding-bottom: 79px;
+  }
+
+  /* Ddt Skills */
+
+  .hrdvlpr_bsns_lst {
+    margin-top: 30px;
+  }
+
+  .hrdvlpr_bsns_lst li {
+    width: 49%;
+    box-shadow: inset 0 0 20px rgba(0, 100, 158, 22%);
+  }
+
+  /* Ddt Responsibilities */
+
+  .lst_tp_cntnt p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Ddt Responsibilities */
+
+  .lst_tp_cntnt p {
+    font-size: 18px;
+  }
+
+  .prjcts_lst_tp {
+    width: 100%;
+    margin-bottom: 20px;
+    min-height: auto;
+  }
+
+  .prjcts_lst_tp {
+    padding: 0;
+  }
+
+  .prjcts_lst_tp h3 {
+    font-size: 23px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Ddt Skills */
+
+  .hrdvlpr_bsns_lst li {
+    height: 318px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* Ddt Banner */
+
+  .hrdvlpr_bnr {
+    height: 400px;
+    padding-top: 40px;
+  }
+
+  .mh h1 {
+    font-size: 26px;
+  }
+
+  .hrdvlpr_bnr .mh p {
+    margin: 15px 0;
+  }
+
+  .mh p,
+  .sb p {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .hrdvlpr_bnr .button_main button a {
+    font-size: 18px;
+  }
+
+  .hrdvlpr_bnr:after {
+    background-size: cover;
+  }
+
+  /* Ddt Hire */
+
+  .hrdvlpr_tm #hover-carousel figure {
+    height: 400px;
+  }
+
+  .hrdvlpr_tm #hover-carousel figure figcaption h3 {
+    font-size: 20px;
+  }
+
+  .alsc {
+    padding: 40px 0 1px;
+  }
+
+  /* Ddt Requirment */
+
+  .rqrmnt_lst {
+    padding-left: 0;
+  }
+
+  .rqrmnt_lst li {
+    width: 100%;
+  }
+
+  .sb h2 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .rqrmnt_lst li h3 {
+    font-size: 20px;
+  }
+
+  /* Ddt Engage */
+
+  .engage_lst .engage_cntnt:first-child {
+    padding-bottom: 90px;
+  }
+
+  .engage_cntnt {
+    padding: 50px 0;
+  }
+
+  .engage_cntnt figure {
+    width: 80%;
+  }
+
+  .engage_dt {
+    margin-top: 20px;
+  }
+
+  .engage_cntnt figure {
+    width: 80%;
+  }
+
+  .engage_cntnt h3 {
+    font-size: 20px;
+    padding: 20px 0 10px;
+  }
+
+  .engage_dt ul,
+  .engage_lst {
+    margin-top: 30px;
+  }
+
+  .engage_dt li {
+    margin-top: 10px;
+  }
+
+  .engage_dt li p {
+    font-size: 16px;
+  }
+
+  .engage_lst .engage_cntnt:nth-child(odd):after,
+  .engage_lst .engage_cntnt:nth-child(even):after {
+    border-radius: 30px 30px 0 0;
+  }
+
+  /* Ddt Skills */
+
+  .hrdvlpr_bsns_lst li {
+    width: 100%;
+    text-align: center;
+    height: 227px;
+  }
+
+  .hrdvlpr_bsns_lst li h3 {
+    font-size: 20px;
+    padding: 20px 0 0px;
+  }
+
+  .hrdvlpr_bsns_lst li p {
+    line-height: normal;
+  }
+
+  /* Ddt Responsibilites */
+
+  .prjcts_lst_tp {
+    padding: 20px;
+  }
+
+  .prjcts_lst_tp h3 {
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .lst_tp_cntnt p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .lst_tp_cntnt {
+    padding-left: 0;
+  }
+
+  .lst_tp_cntnt ion-icon {
+    font-size: 25px;
+  }
+
+  .lst_tp_cntnt li figure {
+    margin-top: 12px;
+  }
+
+  .dedctd_tm_prjcts_lst {
+    margin-top: 20px;
+  }
+
+  .dedctd_tm_prjcts .button_main button {
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
